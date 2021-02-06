@@ -1,0 +1,3 @@
+name = "にんじゃわんこ"
+
+puts name
