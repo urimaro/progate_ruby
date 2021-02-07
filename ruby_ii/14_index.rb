@@ -9,4 +9,10 @@ characters = [
 characters.each do |character|
   puts "---------------------"
   puts "名前は#{character[:name]}です"
+
+  if character[:age]
+    puts "年齢は#{character[:age]}です"
+  else
+    puts "年齢は秘密です"
+  end
 end
