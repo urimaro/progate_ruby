@@ -4,3 +4,9 @@ class Menu
 end
 
 menu1 = Menu.new
+
+menu1.name = "ピザ"
+puts menu1.name
+
+menu1.price = 800
+puts menu1.price
