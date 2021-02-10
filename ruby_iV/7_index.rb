@@ -3,7 +3,7 @@ class Menu
   attr_accessor :price
 
   def info
-    return "料理名と値段が表示されます"
+    return "#{self.name} #{self.price}円"
   end
 end
 
