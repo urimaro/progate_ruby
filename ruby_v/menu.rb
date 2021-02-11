@@ -18,4 +18,7 @@ class Menu
     end
     return total_price
   end
+
+  def Menu.is_discount_day?
+  end
 end
