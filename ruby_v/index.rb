@@ -3,10 +3,8 @@ require "./drink"
 
 food1 = Food.new(name: "ピザ", price: 800, calorie: 700)
 food2 = Food.new(name: "すし", price: 1000, calorie: 600)
-drink1 = Drink.new(name: "コーラ", price: 300)
-drink1.amount = 500
-drink2 = Drink.new(name: "お茶", price: 200)
-drink2.amount = 400
+drink1 = Drink.new(name: "コーラ", price: 300, amount: 500)
+drink2 = Drink.new(name: "お茶", price: 200, amount: 400)
 
 menus = [food1, food2, drink1, drink2]
 
