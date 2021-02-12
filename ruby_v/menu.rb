@@ -1,3 +1,5 @@
+require "date"
+
 class Menu
   attr_accessor :name
   attr_accessor :price
@@ -20,5 +22,7 @@ class Menu
   end
 
   def Menu.is_discount_day?
+    today = Date.today
+    return today.sunday?
   end
 end
