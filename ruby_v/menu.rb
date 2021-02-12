@@ -18,6 +18,11 @@ class Menu
     if count >= 3
       total_price -= 100
     end
+
+    if count >= 1 && Menu.is_discount_day?
+      total_price -= 100
+    end
+
     return total_price
   end
 
